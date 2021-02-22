@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="612.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Rectangle arcWidth="5.0" fill="WHITE" height="72.0" layoutX="100.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="144.0" />
+        <Label layoutX="106.0" layoutY="38.0" text="Supplier">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="51.0" text="CMA AUTOMOTIVE S.A. DE C.V.">
+            <font>
+                <Font size="7.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="60.0" text="Circuito Japón # 117">
+            <font>
+                <Font size="5.5" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="67.0" text="San Francisco de los Romos Centro">
+            <font>
+                <Font size="5.5" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="74.0" text="San Francisco de los Romo, Aguascalientes 20300">
+            <font>
+                <Font size="5.5" />
+            </font>
+        </Label>
+        <Rectangle arcWidth="5.0" fill="WHITE" height="72.0" layoutX="360.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="144.0" />
+        <Label layoutX="364.0" layoutY="40.0" text="Invoice#: ">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Label fx:id="invoiceId" layoutX="409.0" layoutY="40.0" text="9876">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Rectangle arcWidth="5.0" fill="WHITE" height="72.0" layoutX="100.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="144.0" />
+        <Rectangle arcWidth="5.0" fill="WHITE" height="72.0" layoutX="360.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="144.0" />
+        <Label layoutX="106.0" layoutY="122.0" text="Bill to">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="134.0" text="FLEXTRONICS INTERNATIONAL">
+            <font>
+                <Font size="8.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="143.0" text="EUROPE B.V.">
+            <font>
+                <Font size="8.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="152.0" text="TAX ID: 807985752">
+            <font>
+                <Font size="8.0" />
+            </font>
+        </Label>
+        <Label layoutX="364.0" layoutY="122.0" text="ShipTo">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="364.0" layoutY="136.0" text="FLEXTRONICS MANUFACTURING">
+            <font>
+                <Font size="7.0" />
+            </font>
+        </Label>
+        <Label layoutX="364.0" layoutY="145.0" text="AGUASCALIENTES, S.A. DE C.V.">
+            <font>
+                <Font size="7.0" />
+            </font>
+        </Label>
+        <Label layoutX="364.0" layoutY="154.5" text="BOULEVARD A ZACATECAS KM. 9.5">
+            <font>
+                <Font size="7.0" />
+            </font>
+        </Label>
+        <Label layoutX="364.0" layoutY="163.0" text="JESUS MARIA, AGS. 20900">
+            <font>
+                <Font size="7.0" />
+            </font>
+        </Label>
+        <Rectangle arcWidth="5.0" fill="WHITE" height="72.0" layoutX="100.0" layoutY="204.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="144.0" />
+        <Rectangle arcWidth="5.0" fill="WHITE" height="72.0" layoutX="360.0" layoutY="204.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" width="144.0" />
+        <Label layoutX="106.0" layoutY="206.0" text="PO:">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="364.0" layoutY="206.0" text="Packing Slip:">
+            <font>
+                <Font name="System Bold" size="10.0" />
+            </font>
+        </Label>
+        <Label fx:id="poId" alignment="CENTER" contentDisplay="CENTER" layoutX="124.0" layoutY="206.0" prefHeight="15.0" prefWidth="96.0" text="TEST123" wrapText="true">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Label fx:id="packingSlipId" contentDisplay="CENTER" layoutX="427.0" layoutY="206.0" text="ABC456" wrapText="true">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="298.0" text="Number of Boxes">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+        <Label layoutX="228.0" layoutY="298.0" text="Carrier">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+        <Label layoutX="323.0" layoutY="298.0" text="Incoterm">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+        <Label layoutX="430.0" layoutY="298.0" text="Weight">
+            <font>
+                <Font size="9.0" />
+            </font>
+        </Label>
+        <Label fx:id="noOfBoxId" layoutX="180.0" layoutY="298.0" text="00">
+            <font>
+                <Font name="System Bold" size="9.0" />
+            </font>
+        </Label>
+        <Label fx:id="carrierId" layoutX="260.0" layoutY="298.0" text="ABCDEF">
+            <font>
+                <Font name="System Bold" size="9.0" />
+            </font>
+        </Label>
+        <Label fx:id="incotermId" layoutX="364.0" layoutY="298.0" text="ABCDEF">
+            <font>
+                <Font name="System Bold" size="9.0" />
+            </font>
+        </Label>
+        <Label fx:id="weightId" layoutX="464.0" layoutY="298.0" text="00kg">
+            <font>
+                <Font name="System Bold" size="9.0" />
+            </font>
+        </Label>
+    </children>
+</fx:root>
